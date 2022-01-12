@@ -30,5 +30,15 @@ class Dog:
     def roll_over(self):
         """模拟小狗收到命令时打滚。"""
         print(f"{self.name} rolled over!")
+
+class Restaurant():
+    def __init__(self,name,cuisine_type):
+        self.name=name
+        self.cuisine_type=cuisine_type
+    def describe_restaurant(self):
+        print(f"The restaurant is called {self.name}.")
+        print(f"It's cuisine type is {self.cuisine_type}.")
+    def open_restaurant(self):
+        print(f"{self.name} is open.")
         
     
